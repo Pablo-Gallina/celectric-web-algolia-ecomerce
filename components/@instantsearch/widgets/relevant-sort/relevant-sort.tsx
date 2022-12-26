@@ -14,7 +14,7 @@ function RelevantSortComponent({
   refine,
 }: RevelantSortProps) {
   return !isVirtualReplica ? null : (
-    <Pill color="nebula">
+    <Pill color="primary">
       <span className="flex items-center gap-1">
         <Icon icon={InfoIcon} />
         {isRelevantSorted

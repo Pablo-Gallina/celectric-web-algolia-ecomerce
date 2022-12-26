@@ -26,7 +26,7 @@ export function ProductPrice({
 }: ProductPriceProps) {
   return (
     <div className={classNames('flex', className)}>
-      <span className={classNames('text-venus-base font-bold', classNamePrice)}>
+      <span className={classNames('text-brand-secondary font-bold', classNamePrice)}>
         {currency?.position === 'prefix' ? currency.symbol : null}
         {price.toFixed(precision).toLocaleString()}
         {currency?.position === 'suffix' ? currency.symbol : null}

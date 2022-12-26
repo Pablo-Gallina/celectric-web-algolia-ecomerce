@@ -59,14 +59,14 @@
 
   /* Tertiary */
   .btn-tertiary {
-    @apply bg-brand-nebula text-white;
+    @apply bg-brand-primary text-white;
 
     &:hover {
-      @apply can-hover:bg-nebula-dark can-hover:text-nebula-lightest;
+      @apply can-hover:bg-primary-dark can-hover:text-primary-lightest;
     }
 
     &:active {
-      @apply bg-nebula-darkest text-nebula-lightest;
+      @apply bg-primary-darkest text-primary-lightest;
     }
 
     &:disabled {

@@ -14,7 +14,7 @@ module.exports = {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'brand-nebula': 'var(--color-brand-nebula)',
+        'brand-primary': 'var(--color-brand-primary)',
         'brand-black': 'var(--color-brand-black)',
 
         'neutral-lightest': 'var(--color-neutral-lightest)',
@@ -24,12 +24,12 @@ module.exports = {
 
         'uranus-base': 'var(--color-uranus-base)',
 
-        'venus-base': 'var(--color-venus-base)',
+        'brand-secondary': 'var(--color-brand-secondary)',
 
-        'nebula-lightest': 'var(--color-nebula-lightest)',
-        'nebula-light': 'var(--color-nebula-light)',
-        'nebula-dark': 'var(--color-nebula-dark)',
-        'nebula-darkest': 'var(--color-nebula-darkest)',
+        'primary-lightest': 'var(--color-primary-lightest)',
+        'primary-light': 'var(--color-primary-light)',
+        'primary-dark': 'var(--color-primary-dark)',
+        'primary-darkest': 'var(--color-primary-darkest)',
       },
       boxShadow: {
         small: '0px 4px 8px rgba(35, 38, 59, 0.25)',

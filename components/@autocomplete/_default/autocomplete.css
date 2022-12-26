@@ -4,17 +4,17 @@
 
 .aa-Form {
   /* Overrides */
-  @apply !shadow-none bg-neutral-lightest can-hover:hover:border-brand-nebula laptop:bg-white laptop:border laptop:border-solid laptop:border-neutral-dark laptop:rounded-sm laptop:transition;
+  @apply !shadow-none bg-neutral-lightest can-hover:hover:border-brand-primary laptop:bg-white laptop:border laptop:border-solid laptop:border-neutral-dark laptop:rounded-sm laptop:transition;
 }
 
 .focused {
   .aa-Form {
-    @apply border-transparent ring-2 ring-brand-nebula;
+    @apply border-transparent ring-2 ring-brand-primary;
   }
 
   .aa-Label svg,
   .aa-LoadingIndicator svg {
-    @apply text-brand-nebula;
+    @apply text-brand-primary;
   }
 }
 
@@ -95,5 +95,5 @@
 }
 
 .aa-ClearButton:hover .aa-ClearIcon {
-  @apply text-nebula-dark transition-colors;
+  @apply text-primary-dark transition-colors;
 }

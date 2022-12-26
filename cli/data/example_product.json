@@ -1,0 +1,34 @@
+{
+    "objectID": "A0E200000002GZB",
+    "name": "Michael Kors – shopper “Jet Set Travel”",
+    "description": "The sleek leather shopper from Michael Kors is the perfect every day bag, which offers enough space for the most important essentials in the office while traveling or shopping. The longer handles allow you to carry the bag comfortably on the shoulder, while the black leather and silver tag provides subtle elegance. A real investment piece that will accompany you from season to season.",
+    "brand": "Michael Kors",
+    "gender": "women",
+    "hierarchical_categories": {
+      "lvl0": "Women",
+      "lvl1": "Women > Bags",
+      "lvl2": "Women > Bags > Shopper"
+    },
+    "image_urls": [
+      "https://res.cloudinary.com/hilnmyskv/image/upload/v1638375538/flagship_sunrise/A0E200000002GZB_0.jpg"
+    ],
+    "reviews": {
+      "rating": 4,
+      "count": 42,
+      "bayesian_avg": 3.906976744186046
+    },
+    "color": {
+      "filter_group": "black;#333",
+      "original_name": "black"
+    },
+    "available_sizes": [
+      "one size"
+    ],
+    "price": {
+      "currency": "EUR",
+      "value": 343.75,
+      "discounted_value": 0,
+      "discount_level": -100,
+      "on_sales": false
+    }
+  }

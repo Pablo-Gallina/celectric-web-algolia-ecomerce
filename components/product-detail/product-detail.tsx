@@ -145,7 +145,7 @@ export function ProductDetail({
         {popular && (
           <div className="mt-2">
             Hurry! This item is{' '}
-            <span className="text-brand-nebula font-bold">selling fast</span>
+            <span className="text-brand-primary font-bold">selling fast</span>
           </div>
         )}
         <ul className="flex flex-col gap-3 mt-6">

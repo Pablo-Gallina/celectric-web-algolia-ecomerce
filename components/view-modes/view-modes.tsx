@@ -22,7 +22,7 @@ function ViewModesComponent() {
         title="View products as a grid"
         disabled={viewMode === 'grid'}
         className={classNames('p-3 laptop:p-0', {
-          '!text-brand-nebula': viewMode === 'grid',
+          '!text-brand-primary': viewMode === 'grid',
         })}
         onClick={() => setViewMode('grid')}
       >
@@ -32,7 +32,7 @@ function ViewModesComponent() {
         title="View products as a list"
         disabled={viewMode === 'list'}
         className={classNames('p-3 laptop:p-0', {
-          '!text-brand-nebula': viewMode === 'list',
+          '!text-brand-primary': viewMode === 'list',
         })}
         onClick={() => setViewMode('list')}
       >

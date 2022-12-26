@@ -7,11 +7,11 @@
 }
 
 .tag-theme-on-sale {
-  @apply bg-venus-base text-white uppercase;
+  @apply bg-brand-secondary text-white uppercase;
 }
 
 .tag-theme-popular {
-  @apply bg-nebula-dark text-white uppercase;
+  @apply bg-primary-dark text-white uppercase;
 }
 
 .tag-theme-out-of-stock {
