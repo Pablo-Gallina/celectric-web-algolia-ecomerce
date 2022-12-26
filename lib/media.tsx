@@ -21,7 +21,7 @@ function parseScreens(screens: Record<string, any>) {
   return screensParsed
 }
 
-const { tablet, laptop } = parseScreens(screensConfig)
+const { tablet, desktop, laptop } = parseScreens(screensConfig)
 
 export function useMobileMediaQuery() {
   return useMediaQuery({ maxWidth: tablet - 1 })
@@ -33,6 +33,10 @@ export function useTabletMediaQuery() {
 
 export function useLaptopMediaQuery() {
   return useMediaQuery({ minWidth: laptop })
+}
+
+export function useDesktopMediaQuery() {
+  return useMediaQuery({ maxWidth: desktop })
 }
 
 export function Mobile({ children }: BreakpointProps) {
@@ -48,4 +52,9 @@ export function Tablet({ children }: BreakpointProps) {
 export function Laptop({ children }: BreakpointProps) {
   const isLaptop = useLaptopMediaQuery()
   return isLaptop ? <>{children}</> : null
+}
+
+export function Desktop({ children }: BreakpointProps) {
+  const isDesktop = useDesktopMediaQuery()
+  return isDesktop ? <>{children}</> : null
 }

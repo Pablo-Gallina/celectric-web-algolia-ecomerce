@@ -81,7 +81,7 @@ function AutocompleteBasicComponent({
         enabled: isHomePage,
         placeholders,
         placeholderTemplate: (currentPlaceholder: string) =>
-          `Search ${currentPlaceholder}`,
+          `Buscar ${currentPlaceholder}`,
         wordDelay: placeholderWordDelay,
         letterDelay: placeholderLetterDelay,
       }),
@@ -107,7 +107,7 @@ function AutocompleteBasicComponent({
       }),
       animatedPlaceholderPlugin,
       createClearLeftPlugin({ initialQuery }),
-      voiceCameraIconsPluginCreator(),
+      // voiceCameraIconsPluginCreator(),
       searchButtonPluginCreator({
         initialQuery,
         onClick({ state }) {
