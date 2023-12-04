@@ -43,7 +43,13 @@ export function IconLabel({
 
   return (
     <div className={cn}>
-      {icon && <Icon icon={icon} className={classNameIcon} />}
+      {icon && (
+        <Icon
+          style={{ color: 'white' }}
+          icon={icon}
+          className={classNameIcon}
+        />
+      )}
       {label && <Label label={label} className={classNameLabel} />}
     </div>
   )

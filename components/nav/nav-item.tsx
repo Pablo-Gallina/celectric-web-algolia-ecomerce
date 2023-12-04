@@ -27,7 +27,7 @@ export function NavItem({ label, href = '' }: NavItemProps) {
         href={href ? href : `/${labelLowercase}`}
         title={label}
         tabIndex={0}
-        className="can-hover:transition-colors can-hover:hover:text-neutral-dark"
+        className="text-white can-hover:hover:font-bold"
       >
         {label}
       </Link>

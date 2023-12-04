@@ -13,24 +13,21 @@ export default class MyDocument extends Document {
         <Head>
           {/* Common meta */}
           <meta name="description" content="Shop the latest fashion online" />
-          <meta name="application-name" content="Spencer and Williams" />
+          <meta name="application-name" content="Celectric" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
             content="default"
           />
-          <meta
-            name="apple-mobile-web-app-title"
-            content="Spencer and Williams"
-          />
+          <meta name="apple-mobile-web-app-title" content="Celectric" />
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta
             name="msapplication-config"
             content="/static/icons/browserconfig.xml"
           />
-          <meta name="msapplication-TileColor" content="#5468ff" />
+          <meta name="msapplication-TileColor" content="#1562e8" />
           <meta name="msapplication-tap-highlight" content="no" />
-          <meta name="theme-color" content="#5468ff" />
+          <meta name="theme-color" content="#1562e8" />
 
           {/* Icons */}
           <link
@@ -53,18 +50,18 @@ export default class MyDocument extends Document {
           <link
             rel="mask-icon"
             href="/static/icons/safari-pinned-tab.svg"
-            color="#5468ff"
+            color="#1562e8"
           />
           <link rel="manifest" href="/static/icons/manifest.json" />
 
           {/* OG meta */}
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Spencer and Williams" />
+          <meta property="og:title" content="Celectric" />
           <meta
             property="og:description"
             content="Shop the latest fashion online"
           />
-          <meta property="og:site_name" content="Spencer and Williams" />
+          <meta property="og:site_name" content="Celectric" />
           <meta
             property="og:url"
             content="https://algolia-pwa-ecom-ui-template.netlify.app"
@@ -82,7 +79,7 @@ export default class MyDocument extends Document {
             name="twitter:url"
             content="https://algolia-pwa-ecom-ui-template.netlify.app"
           />
-          <meta name="twitter:title" content="Spencer and Williams" />
+          <meta name="twitter:title" content="Celectric" />
           <meta
             name="twitter:description"
             content="Shop the latest fashion online"

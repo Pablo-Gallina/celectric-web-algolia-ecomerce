@@ -42,7 +42,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <AppLayout>
       <Head>
-        <title>Spencer and Williams</title>
+        <title>Celectric</title>
         <meta
           name="viewport"
           content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"
@@ -68,9 +68,9 @@ export default function App({ Component, pageProps, router }: AppProps) {
         </>
       )}
 
-      <Banner size="xs-large" className="z-header" fullWidth={true}>
+      {/* <Banner size="xs-large" className="z-header" fullWidth={true}>
         20% Off! Code: SPRING21 - Terms apply*
-      </Banner>
+      </Banner> */}
       <Header />
 
       <AnimatePresence exitBeforeEnter={true} onExitComplete={scrollToTop}>
